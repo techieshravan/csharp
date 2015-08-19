@@ -19,7 +19,7 @@ namespace Example4
 
         public void SayAge()
         {
-            Console.WriteLine(Age);
+            Console.WriteLine("Age: " + Age);
         }
     }
 }
