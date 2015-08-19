@@ -10,16 +10,9 @@ namespace Example4
 
         public int Age { get; set; }
 
-        public void SayName()
+        public void PrintDetails()
         {
-            var name = string.Format("Name: {0} {1}", FirstName, LastName);
-
-            Console.WriteLine(name);
-        }
-
-        public void SayAge()
-        {
-            Console.WriteLine("Age: " + Age);
+            Console.WriteLine(string.Format("Hello {0} {1} your age is {2} years!", FirstName, LastName, Age));
         }
     }
 }
