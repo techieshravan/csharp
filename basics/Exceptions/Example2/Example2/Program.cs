@@ -21,7 +21,7 @@ namespace Example2
 
             try
             {
-                Console.WriteLine("Enter book title: ");
+                Console.Write("Enter book title: ");
                 book.Title = Console.ReadLine();
             }
             catch (ArgumentException exception)
